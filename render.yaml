@@ -8,3 +8,48 @@ services:
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
+      - key: ADMIN_PASSWORD
+        value: ""
+        sync: false
+      - key: MISTRAL_API_KEY
+        value: ""
+        sync: false
+      - key: MISTRAL_BASE_URL
+        value: https://codestral.mistral.ai/v1
+      - key: MISTRAL_MODEL
+        value: mistral-large-latest
+      - key: SMTP_HOST
+        value: ""
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        value: ""
+        sync: false
+      - key: SMTP_PASS
+        value: ""
+        sync: false
+      - key: SMTP_FROM
+        value: ""
+      - key: SMTP_TLS
+        value: "true"
+      - key: SMTP_SSL
+        value: "false"
+      - key: SHEET_ID
+        value: ""
+        sync: false
+      - key: SHEET_TAB
+        value: Sheet1
+      - key: SHEETS_CREDENTIALS_PATH
+        value: ""
+        sync: false
+      - key: GOOGLE_SA_PATH
+        value: ""
+        sync: false
+      - key: MONGODB_URI
+        value: ""
+        sync: false
+      - key: MONGODB_DB
+        value: bakery
+      - key: MONGODB_MATERIALS_COLLECTION
+        value: materials
