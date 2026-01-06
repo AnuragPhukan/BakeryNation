@@ -1,0 +1,9 @@
+fastapi==0.95.2      # uses Pydantic v1
+uvicorn==0.22.0
+pydantic==1.10.15
+python-multipart==0.0.9
+pymongo[srv]==4.7.2
+google-api-python-client==2.126.0
+google-auth==2.29.0
+google-auth-httplib2==0.2.0
+reportlab==4.2.2

@@ -1,0 +1,7 @@
+.env
+.venv
+__pycache__/
+out/
+*.pyc
+.DS_Store
+lofty-hearth-386921-6ed90cb2ee2f.json
